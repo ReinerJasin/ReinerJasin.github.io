@@ -1,0 +1,767 @@
+body {
+    font-family: sans-serif;
+    background-color: #6f212f;
+    margin: auto;
+}
+
+.container {
+    width: 100%;
+}
+
+#navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #ffb915;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    border-bottom: 2px solid #6f212f;
+    box-shadow: 3px 3px 5px black;
+}
+
+#logo {
+    margin-left: 60px;
+    margin-top: 0px;
+    width: 64px;
+    float: left;
+    position: fixed;
+    z-index: 1;
+}
+
+#navbar-attachment {
+    border-top: 100px solid #ffb915;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 200px;
+    margin-top: -30px;
+    margin-left: -11px;
+    position: fixed;
+}
+
+#navbar-attachment-2 {
+    border-top: 102px solid #6f212f;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 204px;
+    margin-top: -13px;
+    margin-left: -13px;
+    position: fixed;
+}
+
+ul li {
+    border: 2px solid #6f212f;
+    background-color: #ffb915;
+    color: black;
+    margin: 15px 10px;
+    padding: 5px 10px 5px;
+    float: right;
+    list-style-type: none;
+}
+
+#navbar-contact {
+    border-radius: 20px;
+}
+
+ul li a {
+    color: black;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: white;
+    font-size: 1.25em;
+}
+
+.home-content {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+}
+
+#profile-picture {
+    height: 550px;
+    margin: 100px 125px 100px 15%;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+#home-caption {
+    text-align: left;
+    margin-top: 275px;
+    display: block;
+    color: white;
+}
+
+#home-caption h1 {
+    font-size: 3.5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#home-caption p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.header-title {
+    background-color: #ffb915;
+    height: 50px;
+    clear: both;
+}
+
+#interest, #project, #gallery, #contact {
+    font-size: 35px;
+    padding-top: 5px;
+    margin-left: 35px;
+    vertical-align: middle;
+}
+
+.interest-content {
+    width: 90%;
+    color: white;
+    margin-left: 40px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.interest-content h2 {
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+
+.basketball-landscape {
+    width: 33%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.basketball-potrait {
+    width: 22.4%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.project-content {
+    color: white;
+    width: 90%;
+    margin-left: 40px;
+    height: auto;
+    font-size: 1.5em;
+}
+
+.interest-link {
+    color: white;
+    font-size: 1em;
+    text-decoration: underline;
+    margin-left: 60px;
+    text-align: left;
+}
+
+#basketball-hidden-content {
+    text-align: left;
+    display: block;
+}
+
+#JamesNaismith {
+    float: right;
+    margin-right: 50px;
+    margin-top: -800px;
+    text-align: center;
+}
+
+#JamesNaismith img {
+    border-radius: 20px;
+}
+
+#RajonRondo {
+    float: left;
+    margin-left: 50px;
+    margin-top: -800px;
+    text-align: center;
+}
+
+.interest-align-left {
+    text-align: left;
+    width: 49%;
+    margin-bottom: 20px;
+}
+
+.interest-align-left p {
+    text-align: justify;
+}
+
+.interest-align-right {
+    text-align: left;
+    width: 49%;
+    margin-left: 55%;
+    margin-bottom: 50px;
+}
+
+.interest-align-right p {
+    text-align: justify;
+}
+
+#project-1 {
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+#tebakSkuy {
+    width: 277px;
+    float: left;
+    margin-right: 75px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+#margin-project-1 {
+    margin-top: 100px;
+    padding-right: 50px;
+}
+
+#margin_project_2 {
+    margin-top: 90px;
+    padding-right: 50px;
+}
+
+#project-2 {
+    clear: both;
+    margin-bottom: 25px;
+}
+
+#OraPlastique {
+    width: 500px;
+    float: left;
+    margin-right: 75px;
+    margin-bottom: 35px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.photoArea {
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    background-color: #ffb915;
+    font-size: 2em;
+    margin: 35px 17.5px 0px 17.5px;
+    float: left;
+    width: 30%;
+}
+
+.caption {
+    padding: 5px 10px 5px 10px;
+}
+
+.photo {
+    border-radius: 10px;
+    width: 100%;
+}
+
+#photoArea1 {
+    margin-top: 50px;
+}
+
+#photoArea2 {
+    margin-top: 50px;
+}
+
+#photoArea3 {
+    margin-top: 50px;
+}
+
+#photoArea5 {
+    margin-top: 0px;
+}
+
+#photoArea6 {
+    margin-top: -355px;
+}
+
+#photoArea8 {
+    margin-top: -265px;
+    margin-bottom: 35px;
+}
+
+#photoArea9 {
+    margin-top: -620px;
+}
+
+#photoArea10 {
+    margin-top: -190px;
+}
+
+.social-media-logo {
+    border-radius: 10px;
+    margin-left: 75px;
+    margin-top: 40px;
+    box-shadow: 3px 3px 5px black;
+    display: block;
+}
+
+.social-media-link {
+    height: 80px;
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #ffb915;
+    box-shadow: 3px 3px 5px black;
+    padding-top: 15px;
+    margin-left: 250px;
+    margin-top: -110px;
+}
+
+.social-media-link a {
+    font-size: 2.5em;
+    color: black;
+    text-decoration: none;
+}
+
+.social-media-caption {
+    color: white;
+    margin-left: 75px;
+}
+
+.social-media-logo-right {
+    width: 114px;
+    border-radius: 10px;
+    margin-top: -591px;
+    margin-right: 75px;
+    box-shadow: 3px 3px 5px black;
+    float: right;
+    display: block;
+}
+
+.social-media-link-right {
+    height: 80px;
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #ffb915;
+    box-shadow: 3px 3px 5px black;
+    padding-top: 15px;
+    margin-top: -583px;
+    margin-left: 820px;
+}
+
+.social-media-link-right a {
+    font-size: 2.5em;
+    color: black;
+    text-decoration: none;
+}
+
+.social-media-caption-right {
+    color: white;
+    margin-top: -455px;
+    margin-right: 75px;
+    text-align: right;
+}
+
+.social-media-caption{
+    visibility: hidden;
+}
+.social-media-caption-right{
+    visibility: hidden;
+}
+
+#coming-soon {
+    color: white;
+    font-size: 2em;
+    float: right;
+    margin-top: -250px;
+    margin-right: 75px;
+}
+
+#footer {
+    clear: both;
+    background-color: #ffb915;
+    margin-top: 50px;
+    height: 60px;
+}
+
+#footer h6 {
+    padding-top: 25px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1366px) {
+    #photoArea6 {
+        margin-top: -340px;
+    }
+    #photoArea5 {
+        margin-top: -20px;
+    }
+    #photoArea9 {
+        margin-top: -585px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #profile-picture {
+        height: 550px;
+        margin: 125px 75px 75px 75px;
+    }
+    #home-caption {
+        font-size: .75em;
+    }
+    #JamesNaismith {
+        margin: -900px -35px 0px 0px;
+    }
+    #JamesNaismith img {
+        width: 75%;
+    }
+    #RajonRondo {
+        margin: -950px 0px 0px 0px;
+    }
+    #RajonRondo img {
+        width: 90%;
+    }
+    #basketball-hidden-content-2 {
+        width: 100%;
+    }
+    #basketball-hidden-content-4 {
+        width: 100%;
+        margin: 0px;
+    }
+    #basketball-hidden-content-5 {
+        width: 100%;
+    }
+    #content-tebakSkuy {
+        text-align: justify;
+        margin-top: -65px;
+    }
+    #content-oraplastique {
+        text-align: justify;
+        margin: 400px 0px 75px 0px;
+    }
+    .photoArea {
+        font-size: 1.5em;
+    }
+    #photoArea3 {
+        margin: -372.5px 0px 0px 350px;
+    }
+    #photoArea4 {
+        margin: -20px 0px 0px 350px;
+    }
+    #photoArea5 {
+        margin: -15px 0px 0px 17.5px;
+    }
+    #photoArea6 {
+        margin: -250px 0px 0px 35px;
+    }
+    #photoArea7 {
+        margin: 20px 0px 0px 30px;
+    }
+    #photoArea8 {
+        margin: -185px 0px 0px 17.5px;
+    }
+    #photoArea9 {
+        margin: -420px 0px 0px 35px;
+    }
+    #photoArea10 {
+        margin: -95px 0px 50px 35px;
+    }
+    .social-media-link {
+        font-size: 0.75em;
+    }
+    .social-media-link-right {
+        font-size: 0.75em;
+    }
+    .social-media-logo-right {
+        float: left;
+        margin: 20px 0px 0px 75px;
+    }
+    .social-media-link-right {
+        float: left;
+        margin: 25px 0px 0px 250px;
+    }
+    .social-media-caption-right {
+        float: left;
+        margin: 135px 0px 0px -115px;
+    }
+    #coming-soon {
+        clear: both;
+        float: left;
+        margin: 100px 0px 100px 200px;
+    }
+    @media screen and (max-width: 768px) {
+        #logo {
+            margin-left: 27.5px;
+        }
+        #navbar-attachment {
+            width: 120px;
+        }
+        #navbar-attachment-2 {
+            width: 123px;
+        }
+        #profile-picture {
+            height: 600px;
+            margin: 100px 75px 0px 175px;
+        }
+        #home-caption {
+            margin: 750px 0px 0px 75px;
+            font-size: 0.75em;
+        }
+        #basketball-hidden-content-1 {
+            width: 100%;
+        }
+        #basketball-hidden-content-2 {
+            width: 100%;
+            margin-top: 400px;
+        }
+        #basketball-hidden-content-3 {
+            width: 100%;
+            margin-left: 0px;
+            float: left;
+        }
+        #basketball-hidden-content-4 {
+            margin-top: 1000px;
+        }
+        #JamesNaismith {
+            margin: -750px 100px 0px 0px;
+        }
+        #JamesNaismith img {
+            width: 45%;
+        }
+        #RajonRondo {
+            margin: -1000px 0px 0px -50px;
+        }
+        #RajonRondo img {
+            width: 70%;
+        }
+        #content-tebakSkuy {
+            clear: both;
+        }
+        .photoArea {
+            width: 45%;
+        }
+        #photoArea3 {
+            margin: -235px 0px 0px 398px;
+        }
+        #photoArea4 {
+            margin: -85px 0px 0px 17.5px;
+        }
+        #photoArea5 {
+            margin: 35px 0px 0px 35px;
+        }
+        #photoArea6 {
+            margin: -85px 0px 0px 17.5px;
+        }
+        #photoArea7 {
+            margin: 35px 0px 0px 35px;
+        }
+        #photoArea8 {
+            margin: -290px 0px 0px 17.5px;
+        }
+        #photoArea9 {
+            margin: 35px 0px 0px 35px;
+        }
+        #photoArea10 {
+            margin: -260px 0px 75px 17.5px;
+        }
+    }
+    @media screen and (max-width: 414px) {
+        #logo {
+            margin-top: 0px;
+            margin-left: 135px;
+        }
+        #profile-picture {
+            height: 500px;
+            margin: 150px 0px 0px 35px;
+        }
+        #home-caption {
+            font-size: 0.5em;
+            margin: 680px 0px 0px 50px;
+        }
+        #navbar {
+            height: 100px;
+        }
+        ul li {
+            margin-top: 70px;
+            font-size: 0.6em;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding: 5px;
+        }
+        #navbar-contact {
+            margin-right: 50px;
+        }
+        #navbar-attachment {
+            display: none;
+        }
+        #navbar-attachment-2 {
+            display: none;
+        }
+        .interest-content {
+            font-size: 1em;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .basketball-landscape {
+            margin-bottom: 20px;
+        }
+        .basketball-potrait {
+            margin-bottom: 20px;
+        }
+        #basketball-hidden-content-4 {
+            margin-top: 900px;
+        }
+        #JamesNaismith {
+            margin: -725px 0px 0px 0px;
+        }
+        #JamesNaismith img {
+            width: 65%;
+        }
+        #RajonRondo {
+            margin: -850px 0px 0px -50px;
+        }
+        #RajonRondo img {
+            width: 70%;
+        }
+        .interest-link {
+            margin: 0px;
+        }
+        .project-content {
+            font-size: 1em;
+            margin-left: auto;
+        }
+        #tebakSkuy {
+            width: 90%;
+            margin: 0px;
+        }
+        #OraPlastique {
+            width: 90%;
+            margin: 0px;
+        }
+        #content-tebakSkuy {
+            margin: 0px 0px 35px 0px;
+            padding-top: 35px;
+        }
+        #content-oraplastique {
+            float: left;
+            margin: 0px 0px 35px 0px;
+            padding-top: 35px;
+        }
+        .photoArea {
+            width: 90%;
+        }
+        #photoArea1 {
+            margin: 70px 0px 20px 20px;
+        }
+        #photoArea2 {
+            margin: 20px 0px 20px 20px;
+        }
+        #photoArea3 {
+            margin: 20px 0px 20px 20px;
+        }
+        #photoArea4 {
+            margin: 20px 0px 20px 20px;
+        }
+        #photoArea5 {
+            margin: 20px 0px 20px 20px;
+        }
+        #photoArea6 {
+            margin: 20px 0px 20px 20px;
+        }
+        #photoArea7 {
+            margin: 20px 0px 20px 20px;
+        }
+        #photoArea8 {
+            margin: 20px 0px 20px 20px;
+        }
+        #photoArea9 {
+            margin: 20px 0px 20px 20px;
+        }
+        #photoArea10 {
+            margin: 20px 0px 70px 20px;
+        }
+        .social-media-logo {
+            float: none;
+            margin: 0px 0px 0px 150px;
+            display: block;
+        }
+        .social-media-logo-right {
+            float: none;
+            margin: 0px 0px 0px 150px;
+            display: block;
+        }
+        .social-media-link {
+            float: none;
+            width: 90%;
+            display: block;
+            margin: 0px 0px 0px 20px;
+        }
+        .social-media-link-right {
+            float: none;
+            width: 90%;
+            display: block;
+            margin: 0px 0px 0px 20px;
+        }
+        #Instagram {
+            margin-top: 25px;
+        }
+        #Instagram-link {
+            margin-top: 25px;
+        }
+        #Youtube {
+            margin-top: 150px;
+        }
+        #Youtube-link {
+            margin-top: 25px;
+        }
+        #WhatsApp {
+            margin-top: 150px;
+        }
+        #WhatsApp-link {
+            margin-top: 25px;
+        }
+        #Line {
+            margin-top: 150px;
+        }
+        #Line-link {
+            margin-top: 25px;
+        }
+        .social-media-caption {
+            display: none;
+        }
+        .social-media-caption-right {
+            display: none;
+        }
+        #coming-soon {
+            margin: 250px 0px 100px 50px;
+            font-size: 1.5em;
+        }
+    }
+    @media screen and (max-width:375px) {
+        #logo{
+            margin-left: 110px;
+        }
+        ul li{
+            margin-left: 1px;
+            margin-right: 1px;
+        }
+        #profile-picture{
+            margin-left: 20px;
+        }
+        #RajonRondo{
+            margin-top: -875px;
+        }
+        .social-media-logo{
+            margin-left: 125px;
+        }
+        .social-media-logo-right{
+            margin-left: 125px;
+        }
+        #coming-soon{
+            margin-left: 25px;
+        }
+    }
+}
